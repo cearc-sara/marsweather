@@ -14,7 +14,7 @@ function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Mars Temperatures</h1>
+      <h1>NJ Temperatures</h1>
       </header>
       {!loading ? <FetchTemp/> : (<div className="loading">...Loading Temperatures</div>)}
       {errorMessage !== null ? <div>{errorMessage}</div> : null}

@@ -17,7 +17,7 @@ const FetchTemp = (props) => {
     // const state = useSelector((state) => ({...state.app}));
     return(
         <>
-            <h2>Mars Temperatures fetch temps</h2>
+            <h2>NJ Temperatures fetch temps</h2>
             {props.temps.map((temp) => (
                 <Chart temp={temp} fetchTemp={fetchTemp}/>
             ))}
