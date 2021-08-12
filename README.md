@@ -1,5 +1,5 @@
-# marsweather
-An application that takes in the  weather data of Mars and shows it in the form of graphs
+# weatherinnj
+An application that takes in the  weather data of NJ and shows it in the form of graphs
 
 
 # Getting Started with Create React App
